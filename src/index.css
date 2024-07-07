@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.alexandria {
+    font-family: "Alexandria", sans-serif;
+    font-optical-sizing: auto;
+  }
+  
+  .alexandria-thin {
+    font-weight: 100;
+  }
+  
+  .alexandria-normal {
+    font-weight: 400;
+  }
+  .alexandria-semiBold {
+    font-weight: 500;
+  }
+  
+  .alexandria-bold {
+    font-weight: 700;
+  }
+  
+  @layer base{
+    body{
+      background-color: #F6F6F6
+    }
+    section{
+    }}
